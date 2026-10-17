@@ -1,0 +1,8 @@
+[
+  {"alert_id": "EDR-001", "timestamp": "2026-10-10T03:22:15Z", "severity": "High", "title": "Suspicious encoded PowerShell execution", "device": "WORKSTATION-042", "user": "celcia.rajan", "mitre": "T1059.001", "status": "New"},
+  {"alert_id": "EDR-002", "timestamp": "2026-10-10T03:25:44Z", "severity": "Critical", "title": "EICAR test file detected", "device": "WORKSTATION-042", "user": "celcia.rajan", "mitre": "T1204.002", "status": "New"},
+  {"alert_id": "EDR-003", "timestamp": "2026-10-10T08:45:00Z", "severity": "Medium", "title": "Outbound connection to known C2 domain", "device": "LAPTOP-CELCIA", "user": "celcia.rajan", "mitre": "T1071.001", "status": "New"},
+  {"alert_id": "EDR-004", "timestamp": "2026-10-10T10:12:33Z", "severity": "Low", "title": "PUA detected: browser toolbar", "device": "DESKTOP-JMART", "user": "j.martinez", "mitre": "T1176", "status": "New"},
+  {"alert_id": "EDR-005", "timestamp": "2026-10-10T14:55:10Z", "severity": "High", "title": "Credential dumping tool detected", "device": "SERVER-DC01", "user": "svc_backup", "mitre": "T1003.001", "status": "New"},
+  {"alert_id": "EDR-006", "timestamp": "2026-10-10T16:30:00Z", "severity": "Medium", "title": "Lateral movement via SMB", "device": "FILESERVER-01", "user": "svc_backup", "mitre": "T1021.002", "status": "New"}
+]
