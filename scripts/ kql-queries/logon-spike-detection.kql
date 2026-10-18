@@ -1,0 +1,10 @@
+// Logon Spike Detection - Possible Brute Force
+// MITRE ATT&CK: T1110 (Brute Force), T1078 (Valid Accounts)
+// This query is saved as a custom detection rule running hourly
+
+CloudAppEvents
+| where Timestamp > ago(7d)
+| where ActionType in ("SSO Logon", "LOGIN")
+| summarize Logons = count(), Apps = make_set(Application) by AccountDisplayName, IPAddress, bin(Timestamp, 1h)
+| where Logons >= 5
+| sort by Logons desc
