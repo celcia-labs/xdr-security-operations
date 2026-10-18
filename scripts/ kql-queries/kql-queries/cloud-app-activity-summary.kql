@@ -1,0 +1,7 @@
+// Cloud App Activity Summary - SOC Dashboard View
+// Groups all logon activity by type and hour
+
+CloudAppEvents
+| where Timestamp > ago(7d)
+| summarize EventCount = count() by ActionType, bin(Timestamp, 1h)
+| sort by Timestamp desc
