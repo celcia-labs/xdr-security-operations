@@ -1,0 +1,9 @@
+// User Logon Detail - Investigation Query
+// Shows who logged in, from where, and which app
+// Use for investigating specific users or IPs flagged by the spike detection
+
+CloudAppEvents
+| where Timestamp > ago(7d)
+| where ActionType in ("SSO Logon", "LOGIN")
+| project Timestamp, ActionType, AccountDisplayName, IPAddress, CountryCode, Application
+| sort by Timestamp desc
