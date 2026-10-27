@@ -1,0 +1,16 @@
+[
+  {"timestamp": "2026-10-10T02:14:33Z", "event": "failed_login", "source_ip": "203.0.113.50", "username": "celcia.rajan", "status": "failure", "reason": "invalid_password", "country": "CN"},
+  {"timestamp": "2026-10-10T02:14:36Z", "event": "failed_login", "source_ip": "203.0.113.50", "username": "admin", "status": "failure", "reason": "invalid_password", "country": "CN"},
+  {"timestamp": "2026-10-10T02:14:40Z", "event": "failed_login", "source_ip": "203.0.113.50", "username": "celcia.rajan", "status": "failure", "reason": "invalid_password", "country": "CN"},
+  {"timestamp": "2026-10-10T02:14:44Z", "event": "failed_login", "source_ip": "203.0.113.50", "username": "root", "status": "failure", "reason": "invalid_password", "country": "CN"},
+  {"timestamp": "2026-10-10T02:14:48Z", "event": "failed_login", "source_ip": "203.0.113.50", "username": "celcia.rajan", "status": "failure", "reason": "invalid_password", "country": "CN"},
+  {"timestamp": "2026-10-10T02:15:01Z", "event": "failed_login", "source_ip": "203.0.113.50", "username": "svc_backup", "status": "failure", "reason": "invalid_password", "country": "CN"},
+  {"timestamp": "2026-10-10T02:15:05Z", "event": "failed_login", "source_ip": "203.0.113.50", "username": "celcia.rajan", "status": "failure", "reason": "account_locked", "country": "CN"},
+  {"timestamp": "2026-10-10T08:30:12Z", "event": "successful_login", "source_ip": "10.0.0.15", "username": "celcia.rajan", "status": "success", "reason": "mfa_passed", "country": "CA"},
+  {"timestamp": "2026-10-10T09:02:45Z", "event": "successful_login", "source_ip": "10.0.0.22", "username": "j.martinez", "status": "success", "reason": "mfa_passed", "country": "CA"},
+  {"timestamp": "2026-10-10T11:45:33Z", "event": "failed_login", "source_ip": "198.51.100.99", "username": "admin", "status": "failure", "reason": "invalid_password", "country": "RU"},
+  {"timestamp": "2026-10-10T11:45:38Z", "event": "failed_login", "source_ip": "198.51.100.99", "username": "celcia.rajan", "status": "failure", "reason": "invalid_password", "country": "RU"},
+  {"timestamp": "2026-10-10T14:20:00Z", "event": "successful_login", "source_ip": "10.0.0.15", "username": "celcia.rajan", "status": "success", "reason": "sso", "country": "CA"},
+  {"timestamp": "2026-10-10T18:05:22Z", "event": "failed_login", "source_ip": "192.0.2.77", "username": "celcia.rajan", "status": "failure", "reason": "impossible_travel", "country": "NG"},
+  {"timestamp": "2026-10-10T22:30:00Z", "event": "successful_login", "source_ip": "172.16.0.5", "username": "svc_monitor", "status": "success", "reason": "service_account", "country": "CA"}
+]
